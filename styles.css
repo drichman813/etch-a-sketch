@@ -1,0 +1,17 @@
+.grid-container {
+    display: flex;
+    flex-grow: 1;
+    height: 960px;
+    width: 960px;
+    background-color: red;
+}
+
+.grid-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container div {
+    flex-grow: 1;
+    background-color: blue;
+}
