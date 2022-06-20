@@ -1,9 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+
+}
+
 .grid-container {
     display: flex;
     flex-grow: 1;
-    height: 960px;
-    width: 960px;
-    background-color: red;
+    height: 500px;
+    width: 500px;
+    background-color: white;
 }
 
 .grid-column {
@@ -13,5 +23,8 @@
 
 .grid-container div {
     flex-grow: 1;
-    background-color: blue;
+}
+
+.colored {
+    background-color: black;
 }
